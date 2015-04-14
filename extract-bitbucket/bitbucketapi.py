@@ -20,7 +20,7 @@ class fetchcomments(object):
                 commiturl = 'https://bitbucket.org/api/1.0/repositories/IIITSERC/ssad0' + str(i) + '/changesets?limit=50'
             else:
                 commiturl = 'https://bitbucket.org/api/1.0/repositories/IIITSERC/ssad' + str(i) + '/changesets?limit=50'
-            com = requests.get(commiturl, auth=HTTPBasicAuth('IIITSERC','SercSsad4567'))
+            com = requests.get(commiturl, auth=HTTPBasicAuth('*******','*******'))
             commitids=json.loads(com.text)
             #store the commit ids in list.
             for ite in commitids['changesets']:
@@ -64,7 +64,7 @@ class fetchcomments(object):
                 commenturl1 = None
                 commenturl1 = commenturl + str(value) + '/comments'
                 result = ''
-                result = requests.get(commenturl1,auth=HTTPBasicAuth('IIITSERC','SercSsad4567'))
+                result = requests.get(commenturl1,auth=HTTPBasicAuth('**********','*****************'))
                 comments = ''
                 #comments=json.loads(result.text)
                 comments = result.json()
