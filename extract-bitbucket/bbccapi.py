@@ -13,10 +13,10 @@ class fetchcomments(object):
     def repoLoop(self,a,b):
         #dictionary of key : repoid, value : list of commits in a repo.
         dictcommitids = {}
-        listcommitids = []
-        zz = 0
+        #zz = 0
         #loop thru repos and get the commit ids from raw_node.
         for i in range(a,b+1):
+            listcommitids = []
             if i < 10 :
                 commiturl = 'https://bitbucket.org/api/1.0/repositories/IIITSERC/ssad0' + str(i) + '/changesets/'
                 print commiturl
@@ -27,28 +27,39 @@ class fetchcomments(object):
             commitids=json.loads(com.text)
             #store the commit ids in list.
             print str(commitids['changesets'][0]['raw_node'].encode('utf-8'))
-            if listcommitids:
-                listcommitids[:] = []
+
             for ite in commitids['changesets']:
                 listcommitids.append(str(ite['raw_node'].encode('utf-8')))
+
             #print listcommitids
             #dictkey value gets overridden every time.
             if i < 10 :
                 dictkey = 'ssad0' + str(i)
             else:
                 dictkey = 'ssad' + str(i)
-            with open('commiturls.csv', 'a') as csvfile:
-                w = csv.writer(csvfile)
-                print listcommitids
-                zz += 1
-                yy = 'sai'+ str(zz)
-                print yy
-                w.writerow([dictkey, listcommitids])
+            #with open('commiturls.csv', 'a') as csvfile:
+            #    w = csv.writer(csvfile)
+            #    print listcommitids
+            #    zz += 1
+            #    yy = 'sai'+ str(zz)
+            #    print yy
+            #    w.writerow([dictkey, listcommitids])
             #save the reponame as key and list of commidids as value.
             # It is creating a problem here. It is updating 1st key's values to all the other keys.
-            #dictcommitids[dictkey].append(listcommitids)
+            print "appending following to dict:"
+            print dictkey, listcommitids
+            dictcommitids[dictkey] = listcommitids
             #dictcommitids.update({dictkey:listcommitids})
-            #print dictcommitids
+            print "list by list"
+            print dictcommitids
+            #raw_input("press to continue..")
+
+        print "final dict"
+        print dictcommitids
+
+        with open('commiturls.json', 'a') as jsonfile:
+            json.dump(dictcommitids,jsonfile)
+        print dictcommitids
             #update the commitids list after each iteration.
         #open a file, save the dictionary. Y do I need a json file here?
         #with open('commiturls.csv', 'a') as csvfile:
@@ -77,9 +88,11 @@ class fetchcomments(object):
     #Function to fetch comments from all the commit ids.
     def fetchcomm(self):
         dictnew = {}
-        with open('commiturls.csv','r') as data_file:
-            for key, val in csv.reader(data_file):
-                dictnew[key] = val
+        with open('commiturls.json','r') as data_file:
+            dictnew = json.load(data_file)
+            #for key, val in csv.reader(data_file):
+            #    dictnew[key] = val
+            #print dictnew
         #with open('commiturls.json') as data_file:
         #    dictnew = json.loads(data_file)
         #for key1,value1 in dictcommitids.iteritems():
@@ -89,16 +102,25 @@ class fetchcomments(object):
                 commenturl1 = None
                 commenturl1 = commenturl + str(value) + '/comments'
                 print commenturl1
-                break
+                result = ''
                 result = requests.get(commenturl1,auth=HTTPBasicAuth('IIITSERC','SercSsad4567'))
-                comments=json.loads(result.text)
+                comments = ''
+                #comments=json.loads(result.text)
+                comments = result.json()
+                print comments
+                print "blah ...."
                 #filename gets overridden everytime.
-                filename = 'result' + str(key1) + '.csv'
-                print str(comments['values'][0]['content']['raw'].encode('utf-8'))
-                with open(filename, 'a') as csvfile:
-                    ac = csv.writer(csvfile)
+                filename = 'result' + str(key1) + '.txt'
+                #print str(comments['values'][2]['content']['raw'].encode('utf-8'))
+                with open(filename, 'a') as data_json:
                     for item in comments['values']:
-                        ac.writerow([str(item['content']['raw'].encode('utf-8'))])
+                        print str(item['content']['raw'].encode('utf-8'))
+                        ac = ''
+                        ac = key1 + "...  "
+                        ac += value + "... "
+                        ac += str(item['content']['raw'].encode('utf-8'))
+                        ac += '\n'
+                        data_json.write(ac)
 
 thing = fetchcomments()
 #thing.repoLoop(1,2)
