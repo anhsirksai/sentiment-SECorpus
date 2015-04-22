@@ -1,0 +1,9 @@
+If we are not using all the function and al the classes in pipeClass. Then should we be importing * ?
+No docstring provided.
+No whitespace in the brackets.
+Duplicated line, can be removed.
+Too long line?
+No docstring.
+No docstring.
+No docstring.
+Hard coded directory path. Can be done in some other way. (this problem has been fixed before, we can just use that solution)

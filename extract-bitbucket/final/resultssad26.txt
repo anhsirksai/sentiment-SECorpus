@@ -1,0 +1,46 @@
+(y)
+Is not python. 
+This is not a dict.
+This is a object, inherited from the class 'Object'.
+add a break at the end of if.
+The code may run even after it has sent the data
+make the failed condition response more descriptive.
+
+include the not found response( 404)
+
+Done.
+Done
+Done
+Use proper variable names
+Make the failed condition response a little more descriptive.
+Change to raw JSON inheritance.
+done
+
+done
+done
+don't use color name directly
+use appropriate variables
+use appropriate variables
+remove redundant code
+change the title 
+
+Remove commented code.
+That is what we have git for.
+Refactor row to name more descriptive of data contained instead of the data format.
+For what real reason is Offer with a captial 'O'?
+Variable declarations on seperate lines.
+Append a textNode to another div, instead of directly modifying innerHTML.
+Or do XSS scripting attack prevention yourself. That's cool too.
+Do update your git config Nair..
+Now who on earth is this?
+Refactor row to more meaningful name
+Output the error message for better understanding of what the mistake is.
+Good comment.
+Use a better name than data1. It is confusing with data.
+Unnecessary debug statement.
+Unnecessary debug statement.
+img element missing alt attribute
+img element missing a alt attribute.
+
+Please put flag declaration on next line.
+Refactor to './'

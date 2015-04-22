@@ -1,0 +1,40 @@
+give descriptive names for p1, p2,p3
+give proper error message
+give proper alert messages
+give descriptive name instead of "d"
+remove the code which is inside a commented block
+give proper name instead of test1.txt
+give descriptive names instead of dic
+remove this line
+give proper file name instead of "test2.txt"
+keep function calls below in a separate function
+give descriptive variable names instread of fin1, fin2 ...
+give descriptive variable name to fi
+give proper comments
+length of line is too long
+length of line is too long
+length of line is too long
+length of line is too long
+Invalid constant name "d"
+Invalid constant name "wa"
+length of line is too long
+length of line is too long
+length of line is too long
+length of line is too long
+variable name dic should be more descriptive
+Give proper (descriptive) file name instead of test1.txt
+variable name d should be changed to more descriptive one
+
+variable names "r", "c" and "k" could be more descriptive
+the function calls bifurcated(), watermediated() ...etc should be in a separate function
+remove the code which is under comment
+give docstring for this function
+what is l
+Add more comments for a better description
+give proper variable name
+give proper variable names
+no docstring for this method
+as no difference in code executing this if and else . so it is better to use only one if with two conditions
+Use meaningful variable names
+Use a variable instead of appending the same strings again
+for printing Bifuricated pairs and bifuricated triplets code is copied and pasted it is better to wrie funtion for printing

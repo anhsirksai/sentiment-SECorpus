@@ -1,0 +1,10 @@
+In Event Object All event Categories which Ganesh Sir told, should be added.
+Current user name must appear on every page.
+Adding to first two pages from portal side.
+
+On the Object Model most of all relevant dependencies and relations has been established. 
+Status Tracker of Week 5 and Week 7 were interchanged by mistake..
+
+Issue resolved now...
+
+Sorry for mistake.

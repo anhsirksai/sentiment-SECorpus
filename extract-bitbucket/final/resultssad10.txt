@@ -1,0 +1,26 @@
+Indentation issues.
+Do not use <br> to increase the gap between lines of text; use the CSS margin property.
+comments are missing.
+Indentation issue.
+Considering this line and the subsequent lines, is this file auto-generated or does it need to be different if the user is using some other version of ROS?
+Again, this file refers to paths in a specific machine. Same question as above.
+With so many files in a single commit, Bitbucket does not load some files in the end to comment upon. Remember to commit code in smaller chunks.
+Just to mention, in file source/ROS/Simple Odometry/nodes/turtle_tf_broadcaster.py and turtle_tf_listener.py, functions are lacking docstrings.
+Thank you for the feedback. Instead of committing code like this, I shall perform some cleanup before the final release and also post instructions along with the necessary source files which are needed to get the code working in an ROS environment.
+Files like these are generated during the package building process. Check the above answer.
+It is an auto-generated file created on building the ROS package in a local ROS environment. Thank you for pointing this out. A few auto generated files and logs crept into the commit by oversight.
+Please remove this temporary file from source, see to it that temp files are not committed from next time onwards.
+Kindly mention that the user must change the access modifier for the mouse device on his machine for this statement to execute, Exception not handled.
+Thank you for pointing this out.
+For the final release, I shall include a readme.txt file which explains the setup process to the end user. A possible improvement in future releases could be an automated script which does the entire process.
+Temp file spotted.
+Temp file.
+Temp file.
+Removed in the latest version. Thank you for the heads up.
+Handled.
+Handled.
+Try not using development tools in production code.
+Proper variable name should be chosen . Out of context variable names like con should be avoided
+global variables should be avoided and closure property should be used
+Potentially sensitive data
+The team deliberated on the likes of A-Star and Dijkstra's algorithms running on the Django server.

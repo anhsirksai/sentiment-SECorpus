@@ -1,0 +1,39 @@
+Unneccessary properties of left, top and right as they are just assigned to *"0dp"* .
+Unneccessary items in the actionbar_menu should be removed.
+
+**Note:** It has been changed in the next commit.
+The minSdkVersion has to be reduced to a smaller value (eg: 8), so that the app can be installed in phones having lower version of Android. This also means that the app should be made compatible with lower versions of Android.
+If android:left, right and top values are equal to "0dp", then it is **not necessary** to mention them explicitly under the <item> tag.
+Instead of naming the drawable resource as *login_button_ui2*, it should have been named as *login_button_ui_pressed* , as it is a more meaning full name which also shows the drawable resource's purpose.
+It is an **unneccessary** XML file, as it is not used anywhere. Also *MyApplication.java* is just a class and not an activity, and hence does not have any XML view.
+The style of the text could have been done in the styles.xml that could have reduced the amount of code by giving it as a resource to all text having similar font type or color.
+The layout could be made in a super layout say linear and could give it padding which would be reflected for all other XML components inside the layout minimizing code.
+Password should be encrypted  for security purpose.This should definitely be resolved.
+Good change ! Since the entire app only works in portrait orientation, *android:screenOrientation="portrait"* has been added to all the activities in the Manifest file.
+As a convention, it is always better to make textSize >= 12sp . Also the textSize should always be in *"sp"* and not in *"dp"*.
+Instead of prompting up for the installing scanner, better we get an inbuilt scanner so that it wouldn't be problematic for the user.
+Good work ! Adding *scaleType="fitXY"* helps a lot in fitting large images into a limited smaller space.
+Better use instances names which define both file and purpose of it as these are more commonly used.
+Verification of user details in nicely done.Solves the purpose of unique identity of user without leaving any case behind.
+nice to use units sp for all text sizes and dp for else, because and we know the reason for this is to respect a 'user's preferences'.
+Better consult the one making java files in giving ids in to later avoid the conflicting situation in later part though nice work.
+Nice Layout ! Good work done in showing Restaurant details.
+
+**Error:**
+Multiple use of *id/address* in the XML. 
+It has been corrected in the next commit !!
+Good use of **largeHeap**, as more runtime memory will be allocated to the app !
+Hopefully more tabs will be added in the future !
+Whenever a layout is added inside a *<ScrollView>* , its *layout_height* should always be *wrap_content* and not *fill_parent* .
+nice to use focusable rather to clickable, as  it can gain the focus even from an input device like a keyboard.
+The time obtained is in UTC format in the stamp history and has to be changed to users location based time.
+Better to reduce the nested if-else conditions, so that number of edges in the flow graph may decrease, so that there will be less **cyclomatic complexity**
+It's nice to use try and catch here and there often, better way to debug with such a large code.
+Performing and assigning values to an instance in a line makes it troublesome to understand.
+Unused variable TAG !
+The declaration can be removed.
+The semicolon is present without any statement. Though its does not cause errors, it is totally unnecessary !
+Very bad indentation makes the above 14 lines of code very difficult to read and understand ! This should be corrected .
+Better to reduce number of calls to other classes, so that there will be less coupling between the classes.
+In case the image is not uploaded on the server side it starts repeating on every card after 4th stamp card. So its better to display no image of store.
+Wrong spelling of expiryDate, please change all the spellings in the entire java file. 

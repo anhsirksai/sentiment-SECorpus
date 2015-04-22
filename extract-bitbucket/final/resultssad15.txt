@@ -1,0 +1,22 @@
+Check the image directory location here also, as mentioned in the Leaveapp.
+adder() function should be given this id . Check the script once.
+Yeah, done. Now, the location is updated as required.
+I had done the same. But some issue with the script.
+The functionality was modified now, this can set the issue.Check the function of adding the approver.
+Yeah, done.It is fine for adding the approvers in the form.
+Some problem with the image display.Check the location.
+The addfunction is not working for this id.
+I had corrected the id for this one.Make sure to give same one in your file.
+I had updated the image directory location in the parent directory. Now, its working fine.
+What is empty_string here?
+
+form elements not used?
+
+same here
+
+These are test files used in activiti explorer to check if the engine can parse the xml or not, you can ignore all the files in the processes folder
+As above
+Ok
+
+password
+by default it has no passwrod,, but if you set one you can fill in.

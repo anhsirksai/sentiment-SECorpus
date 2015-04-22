@@ -1,0 +1,10 @@
+Missing DocString.
+Unnecessary Line
+Class has no __init__ method
+Comma not followed by a space
+Unnecessary Line
+No "Name" member
+Missing Docstring
+Missing Docstring
+No space followed by comma
+Unused import RequestContext, get_object_or_404, render_to_response and HttpResponse.

@@ -1,0 +1,17 @@
+`EmoViz` as a class does not make much sense at the moment. Consider replacing with a function instead.
+Docstring adds no useful information.
+Unwieldy use of the `zoomin`, `zoomout` and `zoom` functions.
+Should probably keep a reference to the frames in `self`, that way reopening `self.filepath` is not necessary for each function call.
+Comments should have indicated what key the `keycode` stands for.
+too few public methods in the class
+ what happens if files of other format is given....
+does it shows an error??
+only .WAV files??...........what happens when files of other format is given??..........does it show some kind of error??
+
+ there are too many public methods in the class is it possible to optimise it??
+There is no current use for getframerate() method, as none of the features right now will require the framerate. What can it further be used for? 
+Consider importing selectively instead of importing entire module.
+Should consider alternative to `pylint` disable directive.
+Why isn't numexpr a better alternative for numpy? Having a multidemensional array that is 10x faster than numpy? 
+It has been specified by the client that we are dealing with only .wav files coming from the backend. So we do not need to worry about other file formats right now.
+Is noise being accounted for while plotting the wave file? 

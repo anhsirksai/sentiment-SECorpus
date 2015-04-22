@@ -1,0 +1,15 @@
+import ServerAndClient
+needs to be changed according to new class
+
+No need for this as a dictionary is received
+After pass how are these arguments coming
+missing doc-string
+missing doc-string
+unnecessary binary file
+unnecessary binary file
+using both "json" and "ast" modules. choose one
+meaningless variable name "tupl".
+unnecessary line, no longer in use.
+unnecessary line. no longer in use
+"print" followed by nothing
+execution already done in Agents.py. import and use

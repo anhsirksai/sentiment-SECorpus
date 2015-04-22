@@ -1,0 +1,60 @@
+view variable naming could have been easier.
+other more specific parameters can be added.
+'V' as starting of variable name, to be more specific.
+comment do not provide any information of code followed ?
+there is no point of storing into another variable first. This makes it slower.
+Schema::drop('tableName') is missing here, migration rollback would not work !!
+camel case should be used for standard variable naming.
+no routing for this module ?
+why sun logo is used here ?
+improper indentation through out the code
+naming of views variable could have been better.
+'V' as starting of variable's name.
+more specific constraints can be used.
+no point of adding these variables, since there are no constraints mentioned! 
+indentation ? 
+indentation ?
+use AJAX ?
+insert directly into model->parameter, making it slower now!
+why commented out
+Wrong indentation, as per as php coding standards.
+Method name is not in camel case.
+Rather than making another view it would be better if you return a flash message saying that "item is saved".  
+The cancel button redirects to system, it would be better if it redirects to Home or Dashboard.
+again so much spaces.
+Why extra new line is given; if it increases readability then you should've used this in other modules also. 
+Cancel button should redirect to "Home" or "Dashboard", rather than system.
+'Country'  is not getting saved in database, I think there is some problem with fetching data from view by the controller.
+Use em instead of px in font-size
+Use em instead of px in padding
+Em is responsive ,use em in border-bottom ,border-right, border-bottom-left-radius,border-bottom-right-radius.
+indentation improper
+"Country" is not getting saved in suppliers table...problem is with passing data from view to controller.
+unwanted comment 
+improper variable name
+view name could have been simpler.
+two separate Intput::get can be used to follow standards. 
+comment is not linked to code that follows. Useless 
+extra space. Improper indentation 
+unwanted comment 
+unwanted comment 
+unwanted comment 
+useless code, should be deleted. was used for testing purpose 
+no point of redirecting to home, testing thing should be removed!
+indentation !
+I think you are the author of this code...then also you're commenting...I want to know why -_-
+There is a need to replace that 'Affosoft' logo to 'WebERP' logo, and also to change the Titles of each page.
+Could just add the Javascript file.
+could have used better variable names instead of a ,b ,j,i
+Var mynode declaration,while loop and for loop are in parallel ,but are not indented properly
+Syntax not consistent , earlier it was "function name(event) {", now it has changed to "function name(event) " and "{" in new line. 
+could have used better variable names.
+wrong indentation
+dead code, remove unwanted comments
+What is this !!
+This class does nothing, just makes a view...which in turn does nothing.
+Spelling of customer is wrong in your files and your filenames. It  concerns me because it will be hard for people to understand our code for future developments of our project (after it will be open-sourced :D). 
+
+Why pdf is made containing only 'hello world' and not the invoice ?
+As i wrote , it was a test code....
+Admin picture not displaying on all pages.

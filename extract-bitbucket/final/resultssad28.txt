@@ -1,0 +1,100 @@
+A lot of import will be unused use of * is not needed.
+Constants need to be CAPITALIZED as per pep8 standards
+Use of String and Column is not needed.
+Class should have a doc string
+Module should have a docstring/description
+return object of query will be a list and thus iterable , only need to check if empty list
+Multiple statements can be combined into a single statement to improve code.
+print statement can be commented
+seessionmaker not needed and string , integer need not be used
+use of * for import should have been avoided.
+You should'nt use unnecessary imports in the code
+This line is too long according to pep8 standards
+print statements for debugging should have been
+ commented
+good code
+sys module has been imported twice
+Line is too long
+better name for variable such as exception could have been used
+sys module has been imported twice
+empty class User has been used in multiple files
+Line too long
+The class is empty and should have some logic implemented.
+
+
+The class is empty and should have some logic implemented.
+
+
+
+The class is empty and should have some logic implemented.
+
+
+
+The class is empty and should have some logic implemented.
+
+
+
+The class is empty and should have some logic implemented.
+
+
+
+The class is empty and should have some logic implemented.
+
+
+
+The class is empty and should have some logic implemented.
+
+
+
+The class is empty and should have some logic implemented.
+
+
+
+The class is empty and should have some logic implemented.
+
+
+
+The class is empty and should have some logic implemented.
+
+instance and the two functions should have been added as part of a class.
+init not been used and so should have passed instead.
+space should have been used and capital case should have been used for constant.
+typo errors like 'sedn' to send should be changed.
+For variable Upper Camel case may be used.
+Extra lines left here at the bottom
+Unused imports should have been avioded.
+print should have been commented for debugging.
+Line is too long based on pep8 standards.
+
+JsonChecker should have been used.
+too many lines with long length.
+The function should be uncommented.
+Only include necessary imports.
+Print statements should be commented or may be for testing different testfile should be used.
+Comments should have been aligned.
+proper indentation should have been used.
+Proper indentation required here.
+```
+#!python
+
+
+```
+
+The messages should be immediately removed.
+The href should be changed to useful links.
+
+The code smells in the form of unused code should be removed.
+Try using more informative variable names
+.
+The code should be removed.
+Remove the code in the comments.
+Line too long should have lesser length.
+Change the variable name to standards.
+remove these imports from the code '*'.
+Can be made more informative
+Remove the piece code of code. (Code smell)
+Remove the User class and connect to module.
+The class does not serve any effective purpose as of now , try merging with any other class.
+Add a class for the inventory as a whole.
+Remove the spaces .. not needed as per the standards.
+Remove the code not being used.

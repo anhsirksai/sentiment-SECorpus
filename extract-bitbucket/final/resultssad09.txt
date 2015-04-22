@@ -1,0 +1,33 @@
+Fix this bug Sanjeev. Your files are not visible as they are too big to render on page load.
+In the "practice/arjun/OpenCV (Face Detection)/opencv.py~" file, it would be better if we use absolute paths as compared to relative paths as it can produce error while running.
+For example in line 24 : "cv2.imwrite('./detected.jpg', img);"
+We can replace the relative address of "detected.jpg" with its absolute one.
+Same goes with the file "image.jpg" in line 27. "+rects, img = detect("./image.jpg")"
+
+Does this script work if the picture contains a side profile of the face?
+I think Sanjana's doubt is valid
+
+Write the absolute paths and use this command to do that : os.path.abspath(os.path.dirname(__file__))
+And shouldn't this be a part of Iteration 1
+
+Too long code to be put in a single line. Split the code into multiple lines.
+Will the IP camera always generate a URL or can directly feed to a server to be processed?
+Till now, I have come across only those IP camera's which feed their images onto a URL but I am trying to find a way so that I take the images from a server because the current "fetch.py" is taking a lot of time.
+
+Is there any specific reason you chose 'jpeg' as the image file format or is it random?
+its better if you make the path absolute!!
+@ayush this is a test code...it doesn't really matter if i make the path absolute because when i will write this in views.py then i have to write the absolute path...and no, no reason for selecting jpeg..
+Isn't this code for saving images from a url? You could have used urllib.urlretrieve(image_url , save_path) : one line of code, and done.
+It would be easier to understand your code if you write comments for each step you are implementing. Especially for lines 9-14.
+What is the time interval between taking consecutive pictures/frames through this method? This can determine how many frames we can lose out on by running this script?
+And can we make it for a specific time interval so as to take feeds for the particular and respective defines time interval only? As in without killing the process when the script is set to run?
+@sanjana if you ran the script you would know that the output contains the time it took to capture and save an image.
+its better if you make the path absolute!!
+@Ayush please refer to the answer in your last comment..
+Use better variable names. One lettered variable names make it harder to understand what the variables represent.
+Can you please explain lines 5 and 16?
+woudln't it be better if we include more browers like chrome and internet explorer??
+
+WebRTC was a testing thing so I tried it on firefox. If the testing was successful we would have moved on to chrome and all the other browsers.
+wouldn't it be better if we encrypt the password?
+

@@ -1,0 +1,26 @@
+Remove comment block.
+Object on one line and its attribute on another line??? Use them in same line.
+Use proper indentation for better readibility of code. (Use tabs before the variables.)
+Too many methods in this class. Please refactor if possible.
+Use same indentation for the class variables. Non-uniform indentation has been used here.
+Non-uniform indentation used.
+StringTokenizer is deprecated. Use "split" if possible.
+Use attributes in the same line. Ex: properties.load(CommentService.class.getResourceAsStream...) on the same line.
+Remove comment block...Unnecessary cluttering up of code.
+Unnecessary new lines,  and improper indentation.
+should add the ip of the tcollab.in in the address field instead of the domain name
+Don't use "tile" directly.  Use a global class for constants.
+Use a global class for constants.
+Improve Spacing. Non-intended whitespace at places. 
+Remove unnecessary code blocks.
+StringTokenizer is deprecated. Can't we use .split() method ?
+
+
+Remove unnecessary code blocks.
+Remove unnecessary code blocks.
+In the same line please. :/
+Bad Whitespacing.
+Unreadable Block. Please take note. Also, constants in a global class.
+change tags case to small.
+should indent the code properly according to the html coding standard
+unwanted new lines

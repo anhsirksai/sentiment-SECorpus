@@ -1,0 +1,28 @@
+Get application details from database
+Remove extra newlines
+comment properly
+
+comment properly
+remove unwanted pics
+
+please remove unnecessary single line comments 
+
+Remove unnecessary prints
+Remove the function
+Error : Duplicate entry of appname throws error
+remove unnecessary pics 
+
+remove this pic
+
+remove the pic not relatedd to matter
+
+Remove stray headers
+remove unused classes
+added some css features for more responsiveness
+
+changed pading for better design
+remove unnecessary .swp files .swo files
+please take care in feature
+
+remove extra spaces
+

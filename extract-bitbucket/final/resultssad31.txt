@@ -1,0 +1,20 @@
+U have unused functions like conf in bdry2.dat 
+In Task.txt you can try for higher frequencies also as for higher frequencies walls expand.
+does not work for higher frequency
+It should be continuous  for all particles i.e there should be no pause command  
+SO many ii=out(.....). Since user will not be able to see it on console hence no use of printing.
+We need to load and unload the sample.So this should not be commented
+Cycle of length hundred is not sufficient for getting actual behavior of particles.So increase the number of cycles for proper analysis.
+
+there is an error in the output graph  
+
+Unused function as radius function is not getting called anywhere
+We don't need two cycle.Only one was enough
+
+more comments to be added for better understandibility
+Commited Files are done by Sneh Gupta
+
+Gravity should not be used for compressing the balls instead of this wall should be compressed and radius of balls should be increased.
+Function name used should be relevant according to their use to increase readability and for better understanding
+The boundary particles are not being fixed . So alter the above condition accordingly.
+Record changes for larger range of porosity values for better understanding.

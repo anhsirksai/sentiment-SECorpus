@@ -1,0 +1,32 @@
+Inline comments are bad practice. Clean up the view, and move all inline styling to style.css in a later revision. 
+Maybe a good idea to nest the jQuery for the initial states in one $(document).ready() block.
+When you use an empty div with the clearfix class, you're clearing the empty div. Which kind of works, but kills the point of the clearfix. Apply clearfix as a class directly to the tag you want to clear. You can even use multiple classes on a tag, if you like. Like this — 
+
+<a class="something clearfix">aa</a>
+None of the <div>s with the 'clearfix' class hav been implmented by us. These were already present in the html file that we received from the client.
+Aren't forms supposed to be declared before they are used?
+How are we storing attendees in a string? How about a relational database, using the — class Model(...)extends AnotherModel that scala provides? Its simple. 
+
+Edit: A quick google search indicates this behavior comes from the Activate Persistence Framework. It's an ORM that would make our backend (and our lives) much easier. Wide support. 
+
+
+
+For the staging server, we will have to use Env Variables to configure the Database URL. Make an if-construct that checks for the env variable, and uses the default only if it does not exist. 
+Looks fine. We should have a script to manage Database migrations, though. Nice work, guys!
+javascript should be included in separate js file and include it for better modularity
+html files of client should be properly indented maybe using online editor
+totally agreed
+Is this script able to retrieve information in Json form from db. Also the code is not understandable.So please write comments.
+**form validation** at this place needs to be done #important
+**close the files and then push**. There are some files which are ending with ~ showing that the main file was not closed before pushing.
+There is only one html file, that is, 'index.html'. Supposed to be two. 
+
+Maybe send the details of joining through post request.
+Comments missing
+Agreed we will take care of these points.
+You should avoid using global variables and use closure property.
+No spacing before or after operator.
+Why are the javascript files and the html files in the same directory??
+Use 'em' or '%' instead of 'px' for a responsive page. 'em' would be a better choice when the various sizes are to be set relative to the default font size set in the browser. And, use '%', when the page needs to adapt according to the screen size of the device. 
+Shouldn't the organizer be the default presenter (according to the specifications given to us)??
+Isn't there any "Organizer" 'userType' (should be according to the specifications)??

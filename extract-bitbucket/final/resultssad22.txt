@@ -1,0 +1,49 @@
+why such a big html page?
+Why inline css?
+
+Why do you need jquery.min.js when you already gave a link to ajax.googleapis.com
+no need
+not required
+wrong idea
+you could have used angular js to include all the css files
+
+Body and html again?
+
+you could have used many variables rather than having such a big string
+U dont need this function as we are using angular js modals
+these are not required those are some random pages..which are yet to be implemented
+
+u have given random pages in href
+such a big string?
+you dont need this, we already implemented it in shift.js
+wrong implementation
+1 and 5 are same not properly hardcoded
+Why Inline Css??
+
+Inline script ?
+too many linkages,
+unnecessary links used 
+unnecessary opening & closing script tags......
+empty script ?
+why closing head tag here ?
+we already closed it 
+Can be implemented in a better way
+This approach would be make our  integration difficult..
+not needed
+Remove spaces in between the names for each json
+you might have used another txt file to store these instructions.These are not  appropriate here.
+
+No proper comments on how the servlets are being mapped
+
+inline css
+string too big for hardcoding
+I think it would be more user friendly if this form generation is more efficient.There are no glowing and un glowing.There are no tabs and windows.
+remove unnecessary code
+remove redundant code
+Spaces should be removed in the object variables
+"?" should be removed from all variables as this would return error while creating json string from these
+Remove this testing.
+This would go on like this..Better  get an efficient code for this as there are so many inputs ,outputs and transform steps
+Better get this download working.This makes the download file just in your pc.
+This is no need of iteration of degree 100 as the data driven components we implemented are only few 
+Instead of writing for each and every step, this can be implemented by giving it an global condition for the Stepnames and their inner implementation of if-else loop.(i.e To be Generalised)

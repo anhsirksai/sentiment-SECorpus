@@ -1,0 +1,27 @@
+Password should be left blank before committing.
+change Max-limit of year to "2014" or "present year"
+No need to use helper_method every where. 
+It's needed for long lists or options in 'views'
+This is used for Date of Birth so there's no need to change the Max-limit to "2014"
+Use "or" Operation than if condition 
+'if' statement needs an 'end'. Please run the code or test it before pushing.
+Instead of multiple "If" conditions use flags for each attributes.  
+All the 'if', 'end', can be clubbed into one single query from the database based on the value of the variables -> location, language and caste.
+What do you mean by 'flags' ? Wouldn't the if condition still remain ?
+Error handling ? interest_by could be nil
+Same here
+Does not matter. A ''.split(',') gives output as an empty array []
+undefined method `split' for nil:NilClass check the error ??
+
+Fixed it now. Thanks for pointing that out.
+when going from profile to either interest shown by or interest shown to,
+the params are http://localhost:3000/user_profile/interest_shown_by which is giving error "Couldn't find User with 'id'=0"
+just check one how are you routing and check the controller too
+the params should be-
+just: http://localhost:3000/interest_shown_by
+no need to use of '+' in this case
+
+What are you talking about?
+That's not in the code.
+oh sry i thought it was in the code :P
+no use to remove commented part :)

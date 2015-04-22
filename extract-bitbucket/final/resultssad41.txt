@@ -1,0 +1,43 @@
+css part should be implemented.
+css part should be implemented for every file you committed here..
+There is no need to display this page i think...
+This page need not be displayed we can directley redirect skipping this page..
+here we have to display only views of one time tag ... 
+auto generation of id and name of farmer,id of village,district or state is not completed..
+There is no css for this part!!
+
+css part and nav bar part should be implemented .
+
+There is no css part in this page
+For District,mandal,village instead of both 'select one' and 'add new' simply keeping input value is better.
+better css
+
+include nav.php instead of header_new.php
+Nav bars not working for most pages
+Css must be upadated for them also.
+i think that thing is fixed for most of pages but the nav bar css part should be changed
+css part of these files should be changed.It doesn't look well!
+CSS part is not good as the display  varies w.r.t size of desktop.
+better use "nav.php" instead of "header_new.php"
+Update the "CSS" for 'Guest' navbar
+
+Update CSS for "ceo" navbar
+Update CSS for "manager" navbar
+
+Update CSS for "expert" navbar
+
+Update CSS for "super expert" navbar
+Update CSS for "partner" navbar
+
+--> Given file not required
+Page not included
+Page not included
+
+Place all the files by divinding them into Models,Views and Controllers .
+There is no MVC model in these commits?
+No reference to the file name 
+
+No reference to this file
+
+Where is the MVC structure ?
+i think it is implemented and reflected in the next iteration..

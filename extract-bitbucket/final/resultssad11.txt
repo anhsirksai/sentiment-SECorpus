@@ -1,0 +1,18 @@
+Nice thought of changing the words in complete sentences
+Smart way of drawing graphs!!!
+Nice work Anvesh, very good styling
+I think you forgot to delete this. It is already below.
+clever way of passing parameters
+very nice view now
+
+Should have removed comments that were used for practice.
+Smart way of extracting userid.
+good idea of using Ajax!!
+Good algorithm for dumping into database!!!
+nice change, now with better view
+Clever use of bootstrapping classes in list items.
+Filtering is nicely done.
+Apt colors are used!.
+meaning full variable names
+
+Clever use of Google's API for chart generation

@@ -1,0 +1,74 @@
+unused variables inside function linkField,link_Array,primaryType,commonLinkArr,popUp,tableType
+unused variables in function pie  linkField,link_Array,primaryType,commonLinkArr,popUp,tableType
+add a comment what dashStyle contains
+dashStyle is about what kind of line we want ...that is wheather it should be dashed or direct solid etc. The given array $dashStyle contains all possible styles available in highcharts.
+improper indentation 
+improper indentation
+
+indentation issue
+indentaion issue
+indentation issue
+would have been better if named varibles used
+like foreach y_coordinate in y_data
+instead of i and j
+explanation for $tableContents and $x , $y initialised to be NULL
+improper indentation
+title should have been passed as function parameter. Text 'Total Fruit consumption' used. so,view helper can't be  generalised for bar stacked column graph.
+Explanation about fontWeight needed.
+name should have been passed as function parameters (as an array). name declared in helper only so it can't be generalised as view helper . 
+array should have been passed as variable rather than passing it to graph function in braces' format
+div id should have been passed as function argument.
+few arguments are taken because the phtml file is not available.This is a helper only for testing.
+$x is the parameters present in the x-axis and $y for y-axis,argument names would be fixed
+
+as this for testing only it is kept NULL, the phml file from which the graph is actually called is not available
+improper variable t,regstr,contowag names used
+improper indentation
+improper indentation
+logs improper variable name for data
+test data should have been from the database
+t is just a temporary log , regstr--number of registrations,contowag-->conversion to wagerers
+need to be implemented.
+why is $totalCount==7 ?? 
+$reconsilation['reconsilation'] .. variables names matches with json entry/variable used in database. Should have been different for keeping proper track of function
+json_encoding and json_decoding is done.why is encoding done if you are using decoded form of json?
+
+why json_encode and json_decode is done.finally decoded version of json used.so,why is json_encode done??
+
+clarification for $linkfield , $linkarray not provided.
+
+improper indentation
+
+improper indentation
+
+title of x-axis and y-axis should have been passed as function parameters,rather fixed title text has been used.so,cant be used as generalized view helper.
+what is pointInterval??
+title of x-axis as DateTime is appropriate as view helper applies to date time graph only
+need explanation about marker
+text might have been taken as an argument
+why is the data filled manually?
+name can be taken as a argument
+please comment about tooltip
+///please comment about the arguments in the code
+what does zoomType: 'x' specify
+description about opposite required
+please comment about marker
+This is not the audit report add proper tags
+Indentation error
+
+already ordered accoring to id
+Why is this declared to null?
+making sure that array dont contain any dummy values before I can insert player ids in it
+
+It was not made sure that it was ordered according to player ids
+but you already inserted played ids why make it null after that?
+you ordered the arrayId to have player ids in order so when you are querying they are already ordered its not required to order again.
+redeclaring a module Zenfox_Query::create in the same scope could have been avoided
+please explain why a null argument is passed
+
+indentation error
+variable names could have been proper and explanatory 
+variables like dummy and dat are not proper
+please comment on implode function
+Null arguments are passed 
+
